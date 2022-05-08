@@ -1,0 +1,28 @@
+[
+  {
+    "name": "people_con",
+    "type": "radio",
+    "options": {
+      "是": "是",
+      "否": "否"
+    },
+    "label": "最近14天是否和中高风险地区人员接触",
+    "validation": "required"
+  },
+  {
+    "name": "get_Conid",
+    "type": "radio",
+    "options": {
+      "是": "是",
+      "否": "否"
+    },
+    "label": "昨天是否做了核酸检测",
+    "validation": "required"
+  },
+  {
+    "name": "pushplus_token",
+    "type": "text",
+    "label": "pushplus_token",
+    "help": "选填，是否要使用微信消息推送功能"
+  }
+]
